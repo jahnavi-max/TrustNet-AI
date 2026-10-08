@@ -7,3 +7,8 @@ __pycache__/
 dist/
 build/*.db
 *.sqlite3
+
+# Local databases in subfolders
+**/*.db
+**/*.sqlite3
+backend/*.db
